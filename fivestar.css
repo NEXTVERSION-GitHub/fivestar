@@ -1,0 +1,188 @@
+
+
+header{
+    height: 65px;
+    width: 100%;
+    background-color:white;
+    position: fixed;
+    top:0;
+    z-index: 10;
+}
+
+.header-list li{
+    float:left;
+    width: 20%;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    padding:9px;
+    letter-spacing: 0.2rem;
+}
+
+.fa-star::before{
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.fa-star::after {
+    font-family: Georgia;
+}
+
+
+
+
+
+
+
+
+
+main{
+    width: 100%;
+    font-family: serif;
+}
+.top{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.top-video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+.container{
+    position: relative;
+    top: 560px;
+    left: 80px;
+}
+.container h2{
+    font-size: 2rem;
+    line-height: 1.8;
+    letter-spacing: 0.2rem;
+    color:black;
+}
+.container p{
+    color:black;
+}
+.business-hours{
+    height: 100%;
+    width: 100%;
+}
+.business-hours h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.business-hours li{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.btns{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.btn{
+    width: 20%;
+    text-align: center;
+    padding: 10px 24px;
+    color: white;
+    border-radius: 4px;
+    background-color: black;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+
+
+.access{
+    background-color: black;
+    color: white;
+    padding-bottom: 70px;
+}
+.access-wrap{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.google-map{
+    margin-left: ;
+}
+.access-title{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 70px;
+    margin-bottom: 70px;
+}
+.access-list{
+    line-height: 1.8;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    margin: auto;
+}
+.access-list li{
+    margin-bottom: 20px;
+}
+.access-list p{
+    line-height: 30px;
+    margin-top: 40px;
+    font-size: 10px;
+}
+
+
+
+/* .menu{
+    width: 100%;
+} */
+.menu-title{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 70px;
+    margin-bottom: 35px;
+}
+.menu-picture{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.menu-png,.drink-png {
+    width: 30%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+footer{
+    color: black;
+    border-top: 2px solid black;
+    margin: 30px;
+}
+.footer-logo{
+    float: left;
+    margin-left: 80px;
+    width: 10%;
+    height: auto;
+
+}
+.footer-list{
+    float: right;
+    margin-top: 50px;
+    margin-right: 80px;
+}
+.footer-list li{
+    margin-bottom: 30px;
+}
